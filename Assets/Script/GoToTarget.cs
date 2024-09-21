@@ -1,16 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GoToTarget : MonoBehaviour
 {
     public Transform target;
 
-    public float speed = 1;
+    private Stats _stats;
+    private void Start()
+    {
+        _stats = GetComponent<Stats>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += (target.position - transform.position).normalized * speed * Time.deltaTime;
+        transform.position += (target.position - transform.position).normalized * _stats.Speed * Time.deltaTime;
     }
 }

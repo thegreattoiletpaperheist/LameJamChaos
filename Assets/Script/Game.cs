@@ -35,6 +35,9 @@ public class Game : MonoBehaviour
 
         _mo.Target = _player.transform;
         _mo.MobPrefab = Mob;
+
+
+        _player.GetComponent<Stats>().Speed = 5;
     }
     
     
