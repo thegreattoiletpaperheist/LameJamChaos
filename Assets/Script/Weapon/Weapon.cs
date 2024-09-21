@@ -28,7 +28,7 @@ public class Weapon : MonoBehaviour
         pos = transform.position + (direction.normalized * 1.2f);
         
         var b = Instantiate(bullet,pos , quaternion.identity,BulletHolder);
-        b.transform.localScale *=  0.25f;
+        // b.transform.localScale *=  0.25f;
         var dir = b.AddComponent<GoToDirection>();
         dir.direction = direction.normalized;
 

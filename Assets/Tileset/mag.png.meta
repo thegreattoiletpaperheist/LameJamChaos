@@ -941,69 +941,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_31
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 95
-        width: 54
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4b071f1bac6910a0800000000000000
-      internalID: -6910372671006504114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mag_32
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 113
-        width: 10
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f19c5159db52cfea0800000000000000
-      internalID: -5837749520798725857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mag_33
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 129
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1c8860b67dc12180800000000000000
-      internalID: -9141799858935919590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: mag_34
       rect:
         serializedVersion: 2
@@ -1020,48 +957,6 @@ TextureImporter:
       bones: []
       spriteID: 60753661d5ff34360800000000000000
       internalID: 7152841408467130118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mag_35
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 129
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05a898a64a5aacf50800000000000000
-      internalID: 6902511504479324752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mag_36
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 112
-        width: 10
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a73b932bd4533b40800000000000000
-      internalID: 5418768076828784547
       vertices: []
       indices: 
       edges: []
@@ -1822,6 +1717,111 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: shot0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 130
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66847d9b22a7cec4ea1711d8b0fb0a9b
+      internalID: 1680985985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 130
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dea6e81bbe3a474697668fdc90d76b2
+      internalID: 218440094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 130
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbf0da6f55da7344ade009ce96fd265
+      internalID: 727292480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 130
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41440de56b0ae154ebf2e7062387fd5d
+      internalID: 187118358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 130
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7176698d20fc504e936016f1311084e
+      internalID: 46489033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1888,6 +1888,11 @@ TextureImporter:
       mag_7: -3351657198419641596
       main: 2248251647594715127
       pistol: 7782045489996860734
+      shot0: 1680985985
+      shot1: 218440094
+      shot2: 727292480
+      shot3: 187118358
+      shot4: 46489033
       shotgun: 868740231822851246
       shroom0: 6023293375998653818
       shroom1: -6854177843796705480

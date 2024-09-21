@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2267803452573933101}
   - component: {fileID: -3183811966501656074}
   m_Layer: 0
-  m_Name: WeaponYellow
+  m_Name: WeaponPistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97cba6434715d5545bf5be00e1fb5090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 8618522030606188451, guid: 920dc48c062fc1e429f5da01135ab119, type: 3}
-  BulletsPerMinute: 240
+  bullet: {fileID: 8618522030606188451, guid: f8308308c8fe05b489d98c53b82e4d74, type: 3}
+  BulletsPerMinute: 120
   CanShoot: 0
 --- !u!212 &-3183811966501656074
 SpriteRenderer:
@@ -91,7 +91,7 @@ SpriteRenderer:
   m_SortingLayerID: -933250299
   m_SortingLayer: 1
   m_SortingOrder: 3
-  m_Sprite: {fileID: -283360529619974938, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  m_Sprite: {fileID: 7782045489996860734, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

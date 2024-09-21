@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
-public class DamageOnCollision : MonoBehaviour
+public class DamageOnTrigger : MonoBehaviour
 {
     private Stats _stats;
 
@@ -13,9 +13,9 @@ public class DamageOnCollision : MonoBehaviour
         _stats = GetComponent<Stats>();
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        var health = col.collider.GetComponent<Health>();
+        var health = col.GetComponent<Health>();
         if (health)
         {
             health.DoDamage(_stats.DamageOnCollision);

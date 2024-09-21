@@ -19,5 +19,10 @@ public class GoToDirection : MonoBehaviour
     void FixedUpdate()
     {
         _rigidbody2d.position += (Vector2)(Time.fixedDeltaTime * direction * _stats.Speed);
+        
+        Vector3 difference = direction;
+        float rotationZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ);
+        GetComponent<SpriteRenderer>().flipY = difference.x < 0;
     }
 }
