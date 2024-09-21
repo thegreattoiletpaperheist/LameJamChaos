@@ -182,7 +182,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -283,7 +283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &703354992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1433095037}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 10
+    OrthographicSize: 5
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -493,7 +493,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1306994013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,6 +536,10 @@ PrefabInstance:
     - target: {fileID: -8720612894925857997, guid: aab0b94adbf1aae4aad5e92edc6a3945, type: 3}
       propertyPath: undead
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5175346769255935758, guid: aab0b94adbf1aae4aad5e92edc6a3945, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.125
       objectReference: {fileID: 0}
     - target: {fileID: 3926330415420878646, guid: aab0b94adbf1aae4aad5e92edc6a3945, type: 3}
       propertyPath: m_LocalPosition.x
@@ -585,6 +589,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9181804767893356387, guid: aab0b94adbf1aae4aad5e92edc6a3945, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2248251647594715127, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -929,6 +937,6 @@ SceneRoots:
   - {fileID: 2023186489}
   - {fileID: 5018480999787095246}
   - {fileID: 1541380313}
+  - {fileID: 1433095033}
   - {fileID: 1306994014}
   - {fileID: 703354993}
-  - {fileID: 1433095033}

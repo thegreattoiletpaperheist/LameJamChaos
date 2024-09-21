@@ -479,7 +479,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_9
+      name: main
       rect:
         serializedVersion: 2
         x: 48
@@ -584,7 +584,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_14
+      name: pistol
       rect:
         serializedVersion: 2
         x: 111
@@ -626,7 +626,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_16
+      name: ak
       rect:
         serializedVersion: 2
         x: 79
@@ -647,7 +647,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_17
+      name: machinegun
       rect:
         serializedVersion: 2
         x: 111
@@ -710,7 +710,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_20
+      name: shotgun
       rect:
         serializedVersion: 2
         x: 111
@@ -731,7 +731,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_21
+      name: sniper
       rect:
         serializedVersion: 2
         x: 111
@@ -1834,22 +1834,19 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       11: 82400798
+      ak: -283360529619974938
       chest_close: 292746906297510134
       chest_open: -6122210861867875350
       g7: -1534145573
+      machinegun: -2566864371294527055
       mag_0: 957726272920451130
       mag_1: -4733369242404256419
       mag_10: -8920847637650213610
       mag_11: -6394061457403519836
       mag_12: 4531256593396780298
       mag_13: -7848873029040921958
-      mag_14: 7782045489996860734
       mag_15: -3069739773658337254
-      mag_16: -283360529619974938
-      mag_17: -2566864371294527055
       mag_2: -2680580648885329732
-      mag_20: 868740231822851246
-      mag_21: -8761794615141022725
       mag_22: -544425800139053607
       mag_23: -6939638857141213406
       mag_24: 3895936292377091088
@@ -1893,7 +1890,10 @@ TextureImporter:
       mag_59: 690402848402883883
       mag_6: 4635321667549998462
       mag_7: -3351657198419641596
-      mag_9: 2248251647594715127
+      main: 2248251647594715127
+      pistol: 7782045489996860734
+      shotgun: 868740231822851246
+      sniper: -8761794615141022725
       t1: 645582782
       t10: -43514166
       t12: 14674157
