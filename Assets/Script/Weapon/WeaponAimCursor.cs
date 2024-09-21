@@ -23,7 +23,6 @@ public class WeaponAimCursor : MonoBehaviour
     {
         if (_weapon)
         {
-            
             var cursorWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if (Input.GetMouseButtonDown(0))
             {

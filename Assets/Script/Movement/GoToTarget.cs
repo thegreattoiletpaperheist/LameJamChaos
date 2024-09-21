@@ -13,6 +13,9 @@ public class GoToTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!_enemy)
+            return;
+        
         transform.position += (_enemy.Target.position - transform.position).normalized * _stats.Speed * Time.deltaTime;
     }
 }
