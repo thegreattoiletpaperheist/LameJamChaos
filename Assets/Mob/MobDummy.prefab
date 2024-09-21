@@ -365,6 +365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alive: 1
+  DieEffect: {fileID: 2351381307193444447, guid: 168c644336479ac40bdbe05541c42f14, type: 3}
 --- !u!114 &-6506417013565009812
 MonoBehaviour:
   m_ObjectHideFlags: 0
