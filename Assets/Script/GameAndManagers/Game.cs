@@ -46,7 +46,8 @@ public class Game : MonoBehaviour
             _mo._CoordinateProvider = _coordinateProvider;
         }
         
-        _bm._CoordinateProvider = _coordinateProvider;
+        if(_bm)
+            _bm._CoordinateProvider = _coordinateProvider;
 
         _player.GetComponent<Stats>().Speed = 5;
     }

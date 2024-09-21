@@ -24,6 +24,10 @@ public class BuffManager : MonoBehaviour
     {
         var position = _CoordinateProvider.GetCoordOutsideOfScreen();
         var go = Instantiate(capsule, position, Quaternion.identity, transform);
+
+        var pickup = go.GetComponent<Pickup>();
+        pickup._CoordinateProvider = _CoordinateProvider;
+        
         var randomIndex = Random.Range(0, Buffs.Count);
         var item = Buffs[randomIndex];
         go.GetComponent<Pickup>().Item = item;

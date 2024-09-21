@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -10,6 +11,7 @@ public class Health : MonoBehaviour
     public SpriteRenderer h2;
     public SpriteRenderer h3;
 
+    public bool undead = false;
     private void Start()
     {
         _mob = GetComponent<Mob>();
@@ -17,6 +19,9 @@ public class Health : MonoBehaviour
 
     public void DoDamage(float statsDamageOnCollision)
     {
+        if(undead)
+            return;
+        
         health -= statsDamageOnCollision;
         if (health <= 0.0f)
         {

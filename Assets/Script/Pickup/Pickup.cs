@@ -9,9 +9,14 @@ public class Pickup : MonoBehaviour
 
     public bool Stays = false;
 
+    public CoordinateProvider _CoordinateProvider;
+    
     private void Start()
     {
        Instantiate(Item, transform);
+
+       if (_CoordinateProvider)
+         GetComponentInChildren<Hilight>()._CoordinateProvider = _CoordinateProvider;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
