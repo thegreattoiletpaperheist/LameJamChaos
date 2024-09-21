@@ -458,6 +458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
   MobPrefab: {fileID: 0}
+  SpawnPeriod: 1
 --- !u!4 &1306994014
 Transform:
   m_ObjectHideFlags: 0
@@ -553,7 +554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541de6d4e8d2ade47a334ffa57207ee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
 --- !u!4 &1433095037 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3926330415420878646, guid: aab0b94adbf1aae4aad5e92edc6a3945, type: 3}

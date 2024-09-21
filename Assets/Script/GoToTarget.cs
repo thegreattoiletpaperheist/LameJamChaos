@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class GoToTarget : MonoBehaviour
 {
-    public Transform target;
-
     private Stats _stats;
+    private Enemy _enemy;
     private void Start()
     {
         _stats = GetComponent<Stats>();
+        _enemy = GetComponent<Enemy>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += (target.position - transform.position).normalized * _stats.Speed * Time.deltaTime;
+        transform.position += (_enemy.Target.position - transform.position).normalized * _stats.Speed * Time.deltaTime;
     }
 }

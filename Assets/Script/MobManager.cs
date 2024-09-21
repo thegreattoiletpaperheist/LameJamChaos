@@ -10,7 +10,7 @@ public class MobManager : MonoBehaviour
     public Transform Target;
     public GameObject MobPrefab;
 
-    [FormerlySerializedAs("spawnPeriod")] public float SpawnPeriod = 1f;
+  public float SpawnPeriod = 1f;
     void Start()
     {
     }
@@ -51,8 +51,8 @@ public class MobManager : MonoBehaviour
     public void Spawn(Vector3 position)
     {
         var go = Instantiate(MobPrefab, position, quaternion.identity, transform);
+        go.AddComponent<Enemy>().Target = Target;
         var goToTarget = go.AddComponent<GoToTarget>();
-        goToTarget.target = Target;
         
         go.GetComponent<SpriteRenderer>().color = Color.red;
 
