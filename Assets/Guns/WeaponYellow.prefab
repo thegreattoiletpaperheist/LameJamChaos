@@ -46,6 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 8618522030606188451, guid: 920dc48c062fc1e429f5da01135ab119, type: 3}
+  BulletsPerMinute: 240
+  CanShoot: 0
 --- !u!212 &-3183811966501656074
 SpriteRenderer:
   m_ObjectHideFlags: 0
