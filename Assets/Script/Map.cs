@@ -29,6 +29,10 @@ public class Map : MonoBehaviour
             for (int j = bottom; j < top; j++)
             {
                 int tileIndex = Random.Range(0, tiles.Count);
+                var tile = tiles[tileIndex];
+                if(!tile)
+                    continue;
+                
                 var go = Instantiate(tiles[tileIndex], new Vector3(i, j, transform.position.z), quaternion.identity,
                     transform);
                 spawned.Add(go);
@@ -58,7 +62,12 @@ public class Map : MonoBehaviour
                 for (int j = bottom; j <top; j++)
                 {
                     int tileIndex = Random.Range(0, tiles.Count);
-                    var go = Instantiate(tiles[tileIndex], new Vector3(i, j, transform.position.z), quaternion.identity,
+                    
+                    var tile = tiles[tileIndex];
+                    if(!tile)
+                        continue;
+                    
+                    var go = Instantiate(tile, new Vector3(i, j, transform.position.z), quaternion.identity,
                         transform);
                     spawned.Add(go);
                 }
@@ -72,7 +81,11 @@ public class Map : MonoBehaviour
                 for (int j = newbottom; j <bottom; j++)
                 {
                     int tileIndex = Random.Range(0, tiles.Count);
-                    var go = Instantiate(tiles[tileIndex], new Vector3(i, j, transform.position.z), quaternion.identity,
+                    
+                    var tile = tiles[tileIndex];
+                    if(!tile)
+                        continue;
+                    var go = Instantiate(tile, new Vector3(i, j, transform.position.z), quaternion.identity,
                         transform);
                     spawned.Add(go);
                 }
@@ -86,7 +99,10 @@ public class Map : MonoBehaviour
                 for (int j = top; j <newtop; j++)
                 {
                     int tileIndex = Random.Range(0, tiles.Count);
-                    var go = Instantiate(tiles[tileIndex], new Vector3(i, j, transform.position.z), quaternion.identity,
+                    var tile = tiles[tileIndex];
+                    if(!tile)
+                        continue;
+                    var go = Instantiate(tile, new Vector3(i, j, transform.position.z), quaternion.identity,
                         transform);
                     spawned.Add(go);
                 }
@@ -100,7 +116,10 @@ public class Map : MonoBehaviour
                 for (int j = bottom; j <top; j++)
                 {
                     int tileIndex = Random.Range(0, tiles.Count);
-                    var go = Instantiate(tiles[tileIndex], new Vector3(i, j, transform.position.z), quaternion.identity,
+                    var tile = tiles[tileIndex];
+                    if(!tile)
+                        continue;
+                    var go = Instantiate(tile, new Vector3(i, j, transform.position.z), quaternion.identity,
                         transform);
                     spawned.Add(go);
                 }
