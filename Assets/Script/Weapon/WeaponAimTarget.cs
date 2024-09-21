@@ -22,7 +22,7 @@ public class WeaponAimTarget : MonoBehaviour
     
     void Update()
     {
-        if (_weapon)
+        if (_weapon )
         {
             if ((Time.time - _lastSpawnTime) > SpawnPeriod)
             {
