@@ -157,7 +157,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.46274513, g: 0.654902, b: 0.25882354, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541de6d4e8d2ade47a334ffa57207ee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 5
 --- !u!4 &1433095037 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3926330415420878646, guid: aab0b94adbf1aae4aad5e92edc6a3945, type: 3}
@@ -610,6 +610,8 @@ MonoBehaviour:
   - {fileID: 6360171833411425584, guid: 5088db711af65194aa43882d171a933e, type: 3}
   - {fileID: 6333064229683627231, guid: 01ed41fa528efd940ad09f78b5534209, type: 3}
   spawned: []
+  leftBottom: {x: 0, y: 0, z: 0}
+  rightTop: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
