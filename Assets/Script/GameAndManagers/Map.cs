@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using Unity.VisualScripting;
@@ -8,11 +6,13 @@ using Random = UnityEngine.Random;
 
 public class Map : MonoBehaviour
 {
-    public List<GameObject> tiles;
+    public List<Sprite> sprites;
     public List<GameObject> spawned;
 
     public Vector3 leftBottom;
     public Vector3 rightTop;
+
+    public GameObject Tile;
 
     void Start()
     {
@@ -28,13 +28,14 @@ public class Map : MonoBehaviour
         {
             for (int j = bottom; j < top; j++)
             {
-                int tileIndex = Random.Range(0, tiles.Count);
-                var tile = tiles[tileIndex];
-                if(!tile)
+                int tileIndex = Random.Range(0, sprites.Count);
+                var sprite = sprites[tileIndex];
+                if(!sprite)
                     continue;
                 
-                var go = Instantiate(tiles[tileIndex], new Vector3(i, j, transform.position.z), quaternion.identity,
+                var go = Instantiate(Tile, new Vector3(i, j, transform.position.z), quaternion.identity,
                     transform);
+                go.GetComponent<SpriteRenderer>().sprite = sprite;
                 spawned.Add(go);
             }
         }
@@ -61,14 +62,14 @@ public class Map : MonoBehaviour
             {
                 for (int j = bottom; j <top; j++)
                 {
-                    int tileIndex = Random.Range(0, tiles.Count);
-                    
-                    var tile = tiles[tileIndex];
-                    if(!tile)
+                    int tileIndex = Random.Range(0, sprites.Count);
+                    var sprite = sprites[tileIndex];
+                    if(!sprite)
                         continue;
                     
-                    var go = Instantiate(tile, new Vector3(i, j, transform.position.z), quaternion.identity,
+                    var go = Instantiate(Tile, new Vector3(i, j, transform.position.z), quaternion.identity,
                         transform);
+                    go.GetComponent<SpriteRenderer>().sprite = sprite;
                     spawned.Add(go);
                 }
             }
@@ -80,13 +81,13 @@ public class Map : MonoBehaviour
             {
                 for (int j = newbottom; j <bottom; j++)
                 {
-                    int tileIndex = Random.Range(0, tiles.Count);
-                    
-                    var tile = tiles[tileIndex];
-                    if(!tile)
+                    int tileIndex = Random.Range(0, sprites.Count);
+                    var sprite = sprites[tileIndex];
+                    if(!sprite)
                         continue;
-                    var go = Instantiate(tile, new Vector3(i, j, transform.position.z), quaternion.identity,
+                    var go = Instantiate(Tile, new Vector3(i, j, transform.position.z), quaternion.identity,
                         transform);
+                    go.GetComponent<SpriteRenderer>().sprite = sprite;
                     spawned.Add(go);
                 }
             }
@@ -98,12 +99,13 @@ public class Map : MonoBehaviour
             {
                 for (int j = top; j <newtop; j++)
                 {
-                    int tileIndex = Random.Range(0, tiles.Count);
-                    var tile = tiles[tileIndex];
-                    if(!tile)
+                    int tileIndex = Random.Range(0, sprites.Count);
+                    var sprite = sprites[tileIndex];
+                    if(!sprite)
                         continue;
-                    var go = Instantiate(tile, new Vector3(i, j, transform.position.z), quaternion.identity,
+                    var go = Instantiate(Tile, new Vector3(i, j, transform.position.z), quaternion.identity,
                         transform);
+                    go.GetComponent<SpriteRenderer>().sprite = sprite;
                     spawned.Add(go);
                 }
             }
@@ -115,12 +117,13 @@ public class Map : MonoBehaviour
             {
                 for (int j = bottom; j <top; j++)
                 {
-                    int tileIndex = Random.Range(0, tiles.Count);
-                    var tile = tiles[tileIndex];
-                    if(!tile)
+                    int tileIndex = Random.Range(0, sprites.Count);
+                    var sprite = sprites[tileIndex];
+                    if(!sprite)
                         continue;
-                    var go = Instantiate(tile, new Vector3(i, j, transform.position.z), quaternion.identity,
+                    var go = Instantiate(Tile, new Vector3(i, j, transform.position.z), quaternion.identity,
                         transform);
+                    go.GetComponent<SpriteRenderer>().sprite = sprite;
                     spawned.Add(go);
                 }
             }

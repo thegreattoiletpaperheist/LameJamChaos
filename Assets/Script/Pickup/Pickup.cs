@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Pickup : MonoBehaviour
 {
@@ -10,10 +11,18 @@ public class Pickup : MonoBehaviour
     public bool Stays = false;
 
     public CoordinateProvider _CoordinateProvider;
+
+    [FormerlySerializedAs("chestOpen")] public Sprite chestOpenSpite;
+
+    private SpriteRenderer _spriteRenderer;
+
+    public bool pickedUp = false;
     
     private void Start()
     {
-       Instantiate(Item, transform);
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+                    
+       // Instantiate(Item, transform);
 
        if (_CoordinateProvider)
          GetComponentInChildren<Hilight>()._CoordinateProvider = _CoordinateProvider;
@@ -21,6 +30,13 @@ public class Pickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
+        if(pickedUp)
+            return;
+        
+        pickedUp = true;
+
+        _spriteRenderer.sprite = chestOpenSpite;
+        
         var Spawned = Instantiate(Item, col.gameObject.transform);
         var enemy =  col.gameObject.GetComponent<Enemy>();
         if (enemy)
@@ -36,7 +52,7 @@ public class Pickup : MonoBehaviour
 
         if (!Stays)
         {
-            Destroy(gameObject);
+            // Destroy(gameObject);
         }
     }
 }

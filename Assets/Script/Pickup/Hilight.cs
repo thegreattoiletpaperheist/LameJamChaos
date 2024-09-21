@@ -7,8 +7,11 @@ public class Hilight : MonoBehaviour
 
     private SpriteRenderer sr;
 
+    private Pickup _pickup;
+
     private void Start()
     {
+        _pickup = transform.parent.GetComponent<Pickup>();
         sr = GetComponent<SpriteRenderer>();
     }
 
@@ -16,10 +19,15 @@ public class Hilight : MonoBehaviour
 
     private void Update()
     {
-        Visible = _CoordinateProvider.OnScreen(transform.parent.position);
-        sr.enabled = !Visible;
-
-        transform.position = _CoordinateProvider.GetEdgeScreenLocaiton(transform.parent.position);
-
+        if (_pickup.pickedUp)
+        {
+            Visible = false;
+        }
+        else
+        {
+            Visible = !_CoordinateProvider.OnScreen(transform.parent.position);
+            transform.position = _CoordinateProvider.GetEdgeScreenLocaiton(transform.parent.position);
+        }
+        sr.enabled = Visible;
     }
 }

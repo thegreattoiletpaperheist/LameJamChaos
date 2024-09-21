@@ -283,7 +283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &703354992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,7 +493,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1306994013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af547cacd16743a40a01c568a1bd416b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiles:
+  sprites:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -803,12 +803,45 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 6360171833411425584, guid: 5088db711af65194aa43882d171a933e, type: 3}
-  - {fileID: 6360171833411425584, guid: 5088db711af65194aa43882d171a933e, type: 3}
-  - {fileID: 6333064229683627231, guid: 01ed41fa528efd940ad09f78b5534209, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 645582782, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: -22922366, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: 1328338422, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: 966009264, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: -294686007, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: 1922750011864732527, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: 839851528, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: 367076425, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: -43514166, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: 14674157, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: -1533441864, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
+  - {fileID: 768515403, guid: 376407cc6f25eb24085e4671dfe2c487, type: 3}
   spawned: []
   leftBottom: {x: 0, y: 0, z: 0}
   rightTop: {x: 0, y: 0, z: 0}
+  Tile: {fileID: 7217711742130733597, guid: 01c601524bb3efb4d9222befabde4bf6, type: 3}
 --- !u!1001 &5018480999787095246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -864,6 +897,10 @@ PrefabInstance:
     - target: {fileID: 6445401039613834878, guid: ca7a3b7643059fb4582e49a81000a206, type: 3}
       propertyPath: m_Name
       value: Capsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 6445401039613834878, guid: ca7a3b7643059fb4582e49a81000a206, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7705993369353643505, guid: ca7a3b7643059fb4582e49a81000a206, type: 3}
       propertyPath: Item

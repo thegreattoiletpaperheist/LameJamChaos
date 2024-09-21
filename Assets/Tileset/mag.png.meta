@@ -458,7 +458,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_8
+      name: t6
       rect:
         serializedVersion: 2
         x: 208
@@ -668,7 +668,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_18
+      name: chest_close
       rect:
         serializedVersion: 2
         x: 223
@@ -689,7 +689,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_19
+      name: chest_open
       rect:
         serializedVersion: 2
         x: 255
@@ -1550,7 +1550,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_60
+      name: 11
       rect:
         serializedVersion: 2
         x: 224
@@ -1571,7 +1571,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_61
+      name: t14
       rect:
         serializedVersion: 2
         x: 240
@@ -1592,7 +1592,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_62
+      name: t12
       rect:
         serializedVersion: 2
         x: 240
@@ -1600,7 +1600,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1613,7 +1613,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_63
+      name: t13
       rect:
         serializedVersion: 2
         x: 256
@@ -1621,7 +1621,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1634,7 +1634,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_64
+      name: g7
       rect:
         serializedVersion: 2
         x: 224
@@ -1642,7 +1642,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1655,7 +1655,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_65
+      name: t3
       rect:
         serializedVersion: 2
         x: 224
@@ -1663,7 +1663,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1676,7 +1676,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_66
+      name: t1
       rect:
         serializedVersion: 2
         x: 240
@@ -1684,7 +1684,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1697,7 +1697,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_67
+      name: t4
       rect:
         serializedVersion: 2
         x: 240
@@ -1705,7 +1705,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1718,7 +1718,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_68
+      name: t5
       rect:
         serializedVersion: 2
         x: 256
@@ -1726,7 +1726,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1739,7 +1739,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_69
+      name: t8
       rect:
         serializedVersion: 2
         x: 240
@@ -1747,7 +1747,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1760,7 +1760,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_70
+      name: t9
       rect:
         serializedVersion: 2
         x: 256
@@ -1768,7 +1768,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1781,7 +1781,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_71
+      name: t10
       rect:
         serializedVersion: 2
         x: 272
@@ -1789,7 +1789,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1802,7 +1802,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_72
+      name: t2
       rect:
         serializedVersion: 2
         x: 272
@@ -1810,7 +1810,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1833,6 +1833,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      11: 82400798
+      chest_close: 292746906297510134
+      chest_open: -6122210861867875350
+      g7: -1534145573
       mag_0: 957726272920451130
       mag_1: -4733369242404256419
       mag_10: -8920847637650213610
@@ -1843,8 +1847,6 @@ TextureImporter:
       mag_15: -3069739773658337254
       mag_16: -283360529619974938
       mag_17: -2566864371294527055
-      mag_18: 292746906297510134
-      mag_19: -6122210861867875350
       mag_2: -2680580648885329732
       mag_20: 868740231822851246
       mag_21: -8761794615141022725
@@ -1890,22 +1892,20 @@ TextureImporter:
       mag_58: -8903912394905867097
       mag_59: 690402848402883883
       mag_6: 4635321667549998462
-      mag_60: 82400798
-      mag_61: 768515403
-      mag_62: 14674157
-      mag_63: -1533441864
-      mag_64: -1534145573
-      mag_65: 1328338422
-      mag_66: 645582782
-      mag_67: 966009264
-      mag_68: -294686007
-      mag_69: 839851528
       mag_7: -3351657198419641596
-      mag_70: 367076425
-      mag_71: -43514166
-      mag_72: -22922366
-      mag_8: 1922750011864732527
       mag_9: 2248251647594715127
+      t1: 645582782
+      t10: -43514166
+      t12: 14674157
+      t13: -1533441864
+      t14: 768515403
+      t2: -22922366
+      t3: 1328338422
+      t4: 966009264
+      t5: -294686007
+      t6: 1922750011864732527
+      t8: 839851528
+      t9: 367076425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
