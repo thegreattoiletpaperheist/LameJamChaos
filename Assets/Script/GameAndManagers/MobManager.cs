@@ -26,8 +26,6 @@ public class MobManager : MonoBehaviour
         var go = Instantiate(MobPrefab, position, quaternion.identity, transform);
         go.AddComponent<Enemy>().Target = Target;
 
-        go.GetComponent<SpriteRenderer>().color = Color.red;
-
         var blow = go.AddComponent<EnemyBlow>();
         blow.target = Target;
     }

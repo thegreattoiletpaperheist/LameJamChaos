@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
         }
 
         gameObject.AddComponent<InputMovement>();
+        GetComponent<AnimatedMob>().enabled = false;
     }
     
     public void PickUp(GameObject spawned)

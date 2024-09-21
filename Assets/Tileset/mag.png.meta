@@ -1424,7 +1424,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_54
+      name: shroom0
       rect:
         serializedVersion: 2
         x: 94
@@ -1445,7 +1445,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_55
+      name: shroom1
       rect:
         serializedVersion: 2
         x: 126
@@ -1466,7 +1466,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_56
+      name: shroom2
       rect:
         serializedVersion: 2
         x: 158
@@ -1487,7 +1487,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mag_57
+      name: shroom3
       rect:
         serializedVersion: 2
         x: 190
@@ -1882,10 +1882,6 @@ TextureImporter:
       mag_51: 8123522580600035109
       mag_52: 3495098657478199105
       mag_53: 7271089998685877926
-      mag_54: 6023293375998653818
-      mag_55: -6854177843796705480
-      mag_56: -5752904331260473211
-      mag_57: -414037324670276770
       mag_58: -8903912394905867097
       mag_59: 690402848402883883
       mag_6: 4635321667549998462
@@ -1893,6 +1889,10 @@ TextureImporter:
       main: 2248251647594715127
       pistol: 7782045489996860734
       shotgun: 868740231822851246
+      shroom0: 6023293375998653818
+      shroom1: -6854177843796705480
+      shroom2: -5752904331260473211
+      shroom3: -414037324670276770
       sniper: -8761794615141022725
       t1: 645582782
       t10: -43514166
