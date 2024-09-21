@@ -13,7 +13,7 @@ public class Mob : MonoBehaviour
 
         if (DieEffect)
         {
-            var ps = Instantiate(DieEffect, transform.position, Quaternion.Euler(0, 180, 0));
+            var ps = Instantiate(DieEffect, transform.position + Vector3.back*.5f, Quaternion.Euler(0, 180, 0));
             Destroy(ps, 5);
         }    
             
